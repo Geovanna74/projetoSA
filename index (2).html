@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Equidade</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="cadastrar()">
+   <div id="container">
+      <div id="cadastros">
+         <div id="topo">
+
+            <div id="topo-esquerdo"></div>
+
+            <div id="topo-meio">
+               <img id="logo" src="Captura_de_tela_2024-12-16_211300-removebg-preview.png" alt="">
+
+            </div>
+
+            <div id="topo-direito">
+
+               <label class="letras" onclick="cadastrar()">Cadastrar</label>
+               <label class="letras" onclick="editar()">Editar </label>
+               <label class="letras" onclick="listar()">Listar </label>
+               <label class="letras" onclick="deletar()">Deletar</label>
+            </div>
+
+         </div>
+
+         <div id="meio">
+            <div id="meio-esquerdo"></div>
+            <div id="meio-meio">
+               <input class="input" type="Usuario" id="cadUsuario" placeholder="Nome do Usuario">
+               <input class="input" type="Email" id="cadEmail" placeholder="Email">
+               <input class="input" type="Password" id="cadPassword" placeholder="Senha">
+               <img id="curriculo" src="Captura de tela 2024-12-17 201442.png" alt="">
+               <button id="botao" onclick="cad()">CADASTRAR</button>
+
+
+            </div>
+            <div id="meio-direito">
+               <img id="img"
+                  src="png-clipart-computer-icons-user-profile-circle-abstract-miscellaneous-rim-removebg-preview.png"
+                  alt="">
+            </div>
+         </div>
+
+         <div id="baixo">
+            <div id="baixo-esquerdo"></div>
+         </div>
+      </div>
+      <div id="editar">
+          <div id="topo">
+
+            <div id="topo-esquerdo"></div>
+
+            <div id="topo-meio">
+               <img id="logo" src="Captura_de_tela_2024-12-16_211300-removebg-preview.png" alt="">
+
+            </div>
+
+            <div id="topo-direito">
+
+               <label class="letras" onclick="cadastrar()">Cadastrar</label>
+               <label class="letras" onclick="editar()">Editar </label>
+               <label class="letras" onclick="listar()">Listar </label>
+               <label class="letras" onclick="deletar()">Deletar</label>
+            </div>
+
+         </div>
+
+         <div id="meio">
+            <div id="meio-esquerdo"></div>
+            <div id="meio-meio">
+               <img id="img"
+                  src="png-clipart-computer-icons-user-profile-circle-abstract-miscellaneous-rim-removebg-preview.png"
+                  alt="">
+               <input class="input" type="Usuario" id="editUsuario" placeholder="Nome do Usuario">
+               <button id="botao" onclick="edt()">EDITAR</button>
+
+
+            </div>
+            <div id="meio-direito-editar">
+               <input class="input2" type="Email" id="editEmail" placeholder="Email">
+               <input class="input2" type="Password" id="editPassword" placeholder="Senha">
+               <img src="Curriculo 2024-12-17 204210.png" alt="">
+            </div>
+         </div>
+
+         <div id="baixo">
+            <div id="baixo-esquerdo"></div>
+         </div>
+
+      </div>
+
+      <div id="deletar">
+         <div id="topo">
+
+            <div id="topo-esquerdo"></div>
+
+            <div id="topo-meio">
+               <img id="logo" src="Captura_de_tela_2024-12-16_211300-removebg-preview.png" alt="">
+
+            </div>
+
+            <div id="topo-direito">
+
+               <label class="letras" onclick="cadastrar()">Cadastrar</label>
+               <label class="letras" onclick="editar()">Editar </label>
+               <label class="letras" onclick="listar()">Listar </label>
+               <label class="letras" onclick="deletar()">Deletar</label>
+            </div>
+
+         </div>
+
+         <div id="meio">
+            <div id="meio-esquerdo"></div>
+            <div id="meio-meio">
+               <input class="input2" type="Usuario" id="dltUsuario" placeholder="Nome do Usuario">
+
+               <button id="botao" onclick="dlt()">DELETAR</button>
+
+
+            </div>
+            <div id="meio-direito-editar">
+               <img id="lixeira" src="Curriculolixeira 2024-12-17 204113.png" alt="">
+            </div>
+         </div>
+
+         <div id="baixo">
+            <div id="baixo-esquerdo"></div>
+         </div>
+      </div>
+
+      <div id="listar">
+         <div id="topo">
+            <div id="topo-esquerdo"></div>
+            <div id="topo-meio">
+               <img id="logo" src="Captura_de_tela_2024-12-16_211300-removebg-preview.png" alt="">
+            </div>
+            <div id="topo-direito">
+               <label class="letras" onclick="cadastrar()">Cadastrar</label>
+               <label class="letras" onclick="editar()">Editar </label>
+               <label class="letras" onclick="listar()">Listar </label>
+               <label class="letras" onclick="deletar()">Deletar</label>
+            </div>
+         </div>
+
+         <div id="meio">
+            <div id="meio-esquerdo"></div>
+            <div id="meio-meio">      
+               <label  class="lista" id="divLista"></label>
+            </div>
+            <div id="meio-direito-editar">
+               <img src="png-clipart-computer-icons-user-profile-circle-abstract-miscellaneous-rim-removebg-preview.png" alt="">
+            </div>
+         </div>
+
+         <div id="baixo">
+            <div id="baixo-esquerdo"></div>
+         </div>
+      </div>
+
+      </div>
+
+   </div>
+   <script src="script.js"></script>
+
+
+</body>
+
+</html>
